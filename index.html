@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rithish Kumar A S — Aspiring Data Analyst and B.Tech AI & ML student at R.M.D Engineering College. Skilled in Python, SQL, Excel, Power BI, and Data Analysis." />
+  <meta name="keywords" content="Rithish Kumar, Data Analyst, AI ML Student, Portfolio, Python, SQL, Power BI, Excel, Data Science, RMD Engineering" />
+  <meta name="author" content="Rithish Kumar A S" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Rithish Kumar A S — Aspiring Data Analyst" />
+  <meta property="og:description" content="Pre-final-year B.Tech AI & ML student with a passion for Data Analytics, Python, SQL, and business insights." />
+  <meta property="og:type" content="website" />
+
+  <title>Rithish Kumar A S — Aspiring Data Analyst</title>
+
+  <!-- Favicon inline -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%232563eb'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='Inter,sans-serif' font-weight='700' font-size='16' fill='white'>RK</text></svg>" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">Rithish <span>Kumar</span></a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu" role="menu">
+    <a href="#about" role="menuitem">About</a>
+    <a href="#skills" role="menuitem">Skills</a>
+    <a href="#experience" role="menuitem">Experience</a>
+    <a href="#projects" role="menuitem">Projects</a>
+    <a href="#certifications" role="menuitem">Certifications</a>
+    <a href="#achievements" role="menuitem">Achievements</a>
+    <a href="#contact" role="menuitem">Contact</a>
+  </div>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section id="hero" aria-label="Introduction">
+      <div class="container">
+        <div class="hero-inner">
+
+          <!-- Content -->
+          <div class="hero-content">
+            <div class="hero-badge reveal">
+              Open to opportunities
+            </div>
+
+            <h1 class="hero-name reveal reveal-delay-1">
+              Rithish Kumar A S
+            </h1>
+
+            <p class="hero-tagline reveal reveal-delay-2">
+              <span id="typedText">Aspiring Data Analyst</span><span style="color:var(--accent);animation:blink 1s step-end infinite;">|</span>
+            </p>
+
+            <p class="hero-intro reveal reveal-delay-3">
+              Pre-final-year B.Tech Artificial Intelligence and Machine Learning student interested in Data Analytics, AI/ML, and technology-driven problem solving.
+            </p>
+
+            <div class="hero-actions reveal reveal-delay-4">
+              <a href="#projects" class="btn-primary" id="viewWorkBtn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                View My Work
+              </a>
+              <a href="#contact" class="btn-secondary" id="getInTouchBtn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                Get In Touch
+              </a>
+              <a href="Rithish_Kumar_AS_Resume.docx" download class="btn-secondary" id="resumeDownloadBtn" title="Download Resume">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7,10 12,15 17,10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                Resume
+              </a>
+            </div>
+
+            <div class="hero-socials reveal reveal-delay-4">
+              <a href="https://www.linkedin.com/in/rithish-kumar-a-s-2830723a4/" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="LinkedIn profile" id="heroLinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
+              <a href="https://github.com/RITHISH207" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="GitHub profile" id="heroGitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+              <a href="mailto:arit.aiml2024@rmd.ac.in" class="hero-social-link" aria-label="Send email" id="heroEmail">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Photo -->
+          <div class="hero-photo-wrap reveal reveal-delay-2">
+            <img
+              src="profile.jpeg"
+              alt="Rithish Kumar A S — Aspiring Data Analyst"
+              class="hero-photo"
+              id="heroPhoto"
+              loading="eager"
+            />
+            <div class="hero-photo-badge">
+              <div class="hero-photo-badge-icon">📊</div>
+              <div class="hero-photo-badge-text">
+                <strong>Data Analytics</strong>
+                <span>AI & ML Student</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section" aria-label="About me">
+      <div class="container">
+        <div class="about-grid">
+
+          <!-- Text -->
+          <div>
+            <div class="section-header">
+              <span class="section-label reveal">About Me</span>
+              <h2 class="section-title reveal">A student driven by data and curiosity</h2>
+              <div class="divider reveal"></div>
+            </div>
+
+            <div class="about-text">
+              <p class="reveal">
+                I am a pre-final-year <strong>B.Tech Artificial Intelligence and Machine Learning</strong> student at R.M.D Engineering College with a keen interest in <strong>Data Analytics</strong>. I am drawn to the process of working with raw data — cleaning it, understanding its structure, and extracting meaningful insights that can support informed decisions.
+              </p>
+              <p class="reveal reveal-delay-1">
+                I have built hands-on familiarity with tools and languages commonly used in data work, including <strong>Python, Java, SQL, Microsoft Excel,</strong> and <strong>Power BI</strong>. I understand the importance of <strong>data cleaning and preprocessing</strong> as the foundation of any reliable analysis, and I enjoy the problem-solving aspect of working through messy, real-world datasets.
+              </p>
+              <p class="reveal reveal-delay-2">
+                Beyond data analytics, my academic background in AI & ML has given me a growing interest in <strong>Machine Learning, Deep Learning, Generative AI, Large Language Models, RAG,</strong> and <strong>Agentic AI</strong> — areas I continue to explore through self-paced learning and certifications.
+              </p>
+              <p class="reveal reveal-delay-3">
+                I am actively looking for opportunities to apply my skills in a professional environment, grow through real-world experience, and contribute meaningfully to data-driven teams.
+              </p>
+
+              <div class="about-highlights reveal reveal-delay-4">
+                <span class="about-tag">Data Analysis</span>
+                <span class="about-tag">Python</span>
+                <span class="about-tag">SQL</span>
+                <span class="about-tag">Power BI</span>
+                <span class="about-tag">Excel</span>
+                <span class="about-tag">Machine Learning</span>
+                <span class="about-tag">Generative AI</span>
+                <span class="about-tag">Problem Solving</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education Card -->
+          <div class="reveal reveal-delay-2">
+            <div class="edu-card">
+              <div class="edu-card-header">
+                <div class="edu-card-icon">🎓</div>
+                <div>
+                  <h3>R.M.D Engineering College</h3>
+                  <span>Ghaziabad, Tamil Nadu</span>
+                </div>
+              </div>
+
+              <div class="edu-info-row">
+                <div class="edu-info-item">
+                  <span class="label">Degree</span>
+                  <span class="value">B.Tech</span>
+                </div>
+                <div class="edu-info-item">
+                  <span class="label">Specialization</span>
+                  <span class="value">AI & ML</span>
+                </div>
+                <div class="edu-info-item">
+                  <span class="label">Current Level</span>
+                  <span class="value">Pre-Final Year</span>
+                </div>
+                <div class="edu-info-item">
+                  <span class="label">CGPA</span>
+                  <span class="cgpa-badge">6.93</span>
+                </div>
+                <div class="edu-info-item">
+                  <span class="label">Status</span>
+                  <span class="value" style="color:var(--accent)">Pursuing</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick stats -->
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px;">
+              <div style="background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:18px;text-align:center;box-shadow:var(--shadow-sm);">
+                <div style="font-family:var(--font-head);font-size:1.5rem;font-weight:700;color:var(--accent)">2+</div>
+                <div style="font-size:0.78rem;color:var(--muted);margin-top:3px;">Certifications</div>
+              </div>
+              <div style="background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:18px;text-align:center;box-shadow:var(--shadow-sm);">
+                <div style="font-family:var(--font-head);font-size:1.5rem;font-weight:700;color:var(--accent)">1</div>
+                <div style="font-size:0.78rem;color:var(--muted);margin-top:3px;">Internship</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section" aria-label="Skills">
+      <div class="container">
+        <div class="section-header" style="max-width:540px;">
+          <span class="section-label reveal">Skills</span>
+          <h2 class="section-title reveal">What I work with</h2>
+          <div class="divider reveal"></div>
+          <p class="section-subtitle reveal">A focused set of skills across data analytics, programming, and AI/ML — built through coursework, self-learning, and hands-on projects.</p>
+        </div>
+
+        <div class="skills-grid">
+
+          <!-- Programming -->
+          <div class="skill-card reveal" id="skillCardProgramming">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">{ }</div>
+              <h3>Programming</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">SQL</span>
+            </div>
+          </div>
+
+          <!-- Data Analytics -->
+          <div class="skill-card reveal reveal-delay-1" id="skillCardData">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">📊</div>
+              <h3>Data Analytics</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Microsoft Excel</span>
+              <span class="skill-tag">Power BI</span>
+              <span class="skill-tag">Data Cleaning</span>
+              <span class="skill-tag">Data Preprocessing</span>
+              <span class="skill-tag">Data Analysis</span>
+              <span class="skill-tag">Business Insights</span>
+            </div>
+          </div>
+
+          <!-- AI & ML -->
+          <div class="skill-card reveal reveal-delay-2" id="skillCardAI">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">🤖</div>
+              <h3>AI & ML</h3>
+            </div>
+            <div style="margin-bottom:10px;">
+              <p style="font-size:0.75rem;color:var(--muted);margin-bottom:10px;font-style:italic;">Concepts & Areas of Interest</p>
+              <div class="skill-tags">
+                <span class="skill-tag">Machine Learning</span>
+                <span class="skill-tag">Deep Learning</span>
+                <span class="skill-tag">Neural Networks</span>
+                <span class="skill-tag">Generative AI</span>
+                <span class="skill-tag">Large Language Models</span>
+                <span class="skill-tag">RAG</span>
+                <span class="skill-tag">Agentic AI</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Development & Tools -->
+          <div class="skill-card reveal reveal-delay-3" id="skillCardTools">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">🛠</div>
+              <h3>Development & Tools</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Google Antigravity</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="section" aria-label="Work experience">
+      <div class="container">
+        <div class="section-header" style="max-width:500px;">
+          <span class="section-label reveal">Experience</span>
+          <h2 class="section-title reveal">Professional experience</h2>
+          <div class="divider reveal"></div>
+          <p class="section-subtitle reveal">Hands-on industry exposure through internship work in data analysis.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="exp-card">
+              <div class="exp-header">
+                <div class="exp-title-wrap">
+                  <h3>Data Analyst Intern</h3>
+                  <span class="company">Spark Info Solutions</span>
+                </div>
+                <div class="exp-meta">
+                  <span class="exp-date">May 25, 2026 — Jun 8, 2026</span>
+                  <span class="exp-type">Offline Internship</span>
+                </div>
+              </div>
+
+              <ul class="exp-responsibilities">
+                <li>Worked on data analysis tasks using structured datasets in a professional environment.</li>
+                <li>Cleaned and preprocessed datasets by identifying and resolving inconsistencies, duplicates, and formatting issues.</li>
+                <li>Used Microsoft Excel for data organization, filtering, and preliminary analysis.</li>
+                <li>Identified patterns and trends in datasets through exploratory analysis.</li>
+                <li>Prepared cleaned and structured data for further analysis workflows.</li>
+                <li>Generated meaningful insights from available data to support understanding of business patterns.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section" aria-label="Projects">
+      <div class="container">
+        <div class="section-header" style="max-width:520px;">
+          <span class="section-label reveal">Projects</span>
+          <h2 class="section-title reveal">Work I have done</h2>
+          <div class="divider reveal"></div>
+          <p class="section-subtitle reveal">Real-world data analysis project undertaken during my internship.</p>
+        </div>
+
+        <div class="project-card reveal" id="projectSuperstore">
+          <!-- Workflow Visual -->
+          <div class="project-visual">
+            <p style="font-size:0.75rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin-bottom:20px;">Project Workflow</p>
+            <div class="workflow">
+              <div class="workflow-step">
+                <div class="workflow-step-icon" title="Raw Data">📁</div>
+                <span class="workflow-step-label">Raw Data</span>
+              </div>
+              <span class="workflow-arrow">→</span>
+              <div class="workflow-step">
+                <div class="workflow-step-icon" title="Data Cleaning">🧹</div>
+                <span class="workflow-step-label">Data Cleaning</span>
+              </div>
+              <span class="workflow-arrow">→</span>
+              <div class="workflow-step">
+                <div class="workflow-step-icon" title="Preprocessing">⚙️</div>
+                <span class="workflow-step-label">Preprocessing</span>
+              </div>
+              <span class="workflow-arrow">→</span>
+              <div class="workflow-step">
+                <div class="workflow-step-icon" title="Analysis">🔍</div>
+                <span class="workflow-step-label">Analysis</span>
+              </div>
+              <span class="workflow-arrow">→</span>
+              <div class="workflow-step">
+                <div class="workflow-step-icon" title="Insights">💡</div>
+                <span class="workflow-step-label">Insights</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Body -->
+          <div class="project-body">
+            <div class="project-header">
+              <h3>Superstore Sales Data Analytics</h3>
+              <span class="project-org">Spark Info Solutions</span>
+            </div>
+
+            <p class="project-desc">
+              Cleaned and preprocessed Superstore sales data by removing duplicates, resolving inconsistencies, and standardizing text, dates, and numerical formats. Filtered and organized dataset records in Excel to improve data quality and prepare the dataset for analysis. Explored the cleaned dataset to identify sales patterns and generate meaningful business insights.
+            </p>
+
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:16px;">
+              <span style="font-size:0.78rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:0.06em;">Role</span>
+              <span style="font-size:0.82rem;color:var(--text);font-weight:500;">Data Analyst Intern</span>
+            </div>
+
+            <div class="project-tools">
+              <span class="project-tool">Microsoft Excel</span>
+              <span class="project-tool">Data Cleaning</span>
+              <span class="project-tool">Data Preprocessing</span>
+              <span class="project-tool">Data Analysis</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section id="certifications" class="section" aria-label="Certifications">
+      <div class="container">
+        <div class="section-header" style="max-width:520px;">
+          <span class="section-label reveal">Certifications</span>
+          <h2 class="section-title reveal">Professional certifications</h2>
+          <div class="divider reveal"></div>
+          <p class="section-subtitle reveal">Industry-recognized certifications from Oracle in cloud development and AI.</p>
+        </div>
+
+        <div class="certs-grid">
+
+          <div class="cert-card reveal" id="certOracleAPEX">
+            <div class="cert-icon">☁️</div>
+            <div class="cert-body">
+              <h3>Oracle APEX Cloud Developer</h3>
+              <p class="cert-issuer">Oracle Corporation</p>
+              <span class="cert-badge">Cloud Development</span>
+            </div>
+          </div>
+
+          <div class="cert-card reveal reveal-delay-1" id="certOracleAI">
+            <div class="cert-icon">🤖</div>
+            <div class="cert-body">
+              <h3>Oracle Agentic AI Certified Foundations Associate</h3>
+              <p class="cert-issuer">Oracle Corporation</p>
+              <span class="cert-badge">Agentic AI · Foundations</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS SECTION -->
+    <section id="achievements" class="section" aria-label="Achievements and learning">
+      <div class="container">
+        <div class="section-header" style="max-width:520px;">
+          <span class="section-label reveal">Achievements & Learning</span>
+          <h2 class="section-title reveal">Continuous growth</h2>
+          <div class="divider reveal"></div>
+          <p class="section-subtitle reveal">A track record of ongoing learning across AI, programming, and data — driven by curiosity and commitment.</p>
+        </div>
+
+        <div class="achievements-grid">
+
+          <div class="achievement-card reveal" id="achieveCerts">
+            <div class="achievement-icon">🏅</div>
+            <div class="achievement-text">
+              <h4>Professional Certifications</h4>
+              <p>Completed multiple professional certifications in AI, Cloud, and Programming from Oracle and NPTEL.</p>
+            </div>
+          </div>
+
+          <div class="achievement-card reveal reveal-delay-1" id="achieveGenAI">
+            <div class="achievement-icon">🧠</div>
+            <div class="achievement-text">
+              <h4>Self-Paced AI Learning</h4>
+              <p>Demonstrated continuous learning through self-paced courses in Generative AI, Agentic AI, and Industry 4.0.</p>
+            </div>
+          </div>
+
+          <div class="achievement-card reveal reveal-delay-2" id="achieveCoding">
+            <div class="achievement-icon">💻</div>
+            <div class="achievement-text">
+              <h4>Coding Practice</h4>
+              <p>Participated in coding practice and problem-solving on Skillrack and CodeTantra to sharpen programming fundamentals.</p>
+            </div>
+          </div>
+
+          <div class="achievement-card reveal reveal-delay-3" id="achieveCommunity">
+            <div class="achievement-icon">🌐</div>
+            <div class="achievement-text">
+              <h4>Community Engagement</h4>
+              <p>Active learner and contributor in AI/ML and software development communities, staying current with emerging technologies.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section" aria-label="Contact">
+      <div class="container">
+        <div class="section-header" style="max-width:500px;">
+          <span class="section-label reveal">Contact</span>
+          <h2 class="section-title reveal">Let's Connect</h2>
+          <div class="divider reveal"></div>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Info -->
+          <div class="reveal">
+            <p class="contact-info-sub">
+              Open to Data Analyst opportunities, internships, and professional connections. Feel free to reach out — I am always happy to connect and talk about data, AI, or potential collaborations.
+            </p>
+
+            <div class="contact-links">
+              <a href="mailto:arit.aiml2024@rmd.ac.in" class="contact-link" id="contactEmail">
+                <div class="contact-link-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div class="contact-link-text">
+                  <strong>Email</strong>
+                  <span>arit.aiml2024@rmd.ac.in</span>
+                </div>
+              </a>
+
+              <a href="tel:+916369344552" class="contact-link" id="contactPhone">
+                <div class="contact-link-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.44 2 2 0 0 1 3.6 1.25h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.1a16 16 0 0 0 6 6l.92-.92a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+                </div>
+                <div class="contact-link-text">
+                  <strong>Phone</strong>
+                  <span>+91 6369344552</span>
+                </div>
+              </a>
+
+              <a href="https://www.linkedin.com/in/rithish-kumar-a-s-2830723a4/" target="_blank" rel="noopener noreferrer" class="contact-link" id="contactLinkedIn">
+                <div class="contact-link-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </div>
+                <div class="contact-link-text">
+                  <strong>LinkedIn</strong>
+                  <span>rithish-kumar-a-s-2830723a4</span>
+                </div>
+              </a>
+
+              <a href="https://github.com/RITHISH207" target="_blank" rel="noopener noreferrer" class="contact-link" id="contactGitHub">
+                <div class="contact-link-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </div>
+                <div class="contact-link-text">
+                  <strong>GitHub</strong>
+                  <span>RITHISH207</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Visual Form -->
+          <div class="reveal reveal-delay-1">
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contactName">Name</label>
+                  <input type="text" id="contactName" name="name" placeholder="Your name" autocomplete="name" />
+                </div>
+                <div class="form-group">
+                  <label for="contactEmailInput">Email</label>
+                  <input type="email" id="contactEmailInput" name="email" placeholder="your@email.com" autocomplete="email" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="contactSubject">Subject</label>
+                <input type="text" id="contactSubject" name="subject" placeholder="What is this about?" />
+              </div>
+              <div class="form-group">
+                <label for="contactMessage">Message</label>
+                <textarea id="contactMessage" name="message" placeholder="Your message..."></textarea>
+              </div>
+              <button type="submit" class="btn-primary" id="contactSubmitBtn" style="width:100%;justify-content:center;">
+                Send Message
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <strong>Rithish Kumar A S</strong>
+          <span>Aspiring Data Analyst | AI & ML Student</span>
+        </div>
+
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/in/rithish-kumar-a-s-2830723a4/" target="_blank" rel="noopener noreferrer" class="footer-social" aria-label="LinkedIn" id="footerLinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://github.com/RITHISH207" target="_blank" rel="noopener noreferrer" class="footer-social" aria-label="GitHub" id="footerGitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+          <a href="mailto:arit.aiml2024@rmd.ac.in" class="footer-social" aria-label="Email" id="footerEmail">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <p class="footer-copy">
+        © 2026 Rithish Kumar A S. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Cursor blink keyframe -->
+  <style>
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+  </style>
+
+  <script src="script.js"></script>
+</body>
+</html>
